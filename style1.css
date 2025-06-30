@@ -1,0 +1,89 @@
+        /* define h1 design */
+        h1{
+            border: outset ;
+            border-color: black;
+            border-width: 5%;
+            border-radius: 200px;
+            background-color: antiquewhite;
+            padding: 10px;
+            margin:20px;
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            margin-bottom: 20px;
+            text-shadow: 5px 5px 10px black ;
+            font-style: italic;
+            
+             }
+         /*define body style  */
+        body{
+            background-color: beige; 
+            color: black;
+            background-image: url(28.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+           
+        }
+      
+        /* for anchor tags */
+        .design2{
+            text-decoration: none;
+            padding: 5px;
+            margin: 5px;
+            background-color: beige;
+            border:dashed red;
+            border-radius: 20px;
+            color: red;
+            font-style: italic;
+        }
+        /* define anchor states*/
+        .divdesign{
+            text-align: center;
+         
+         a:hover{
+            background-color: aqua;
+              border: solid  ;
+            border-radius: 20px;
+           
+            }
+         a:active{
+            background-color: transparent;
+            color:black;
+            text-decoration: underline;
+            }
+         a:target{
+            background-color: blue;
+            text-decoration:underline;
+              }
+         a:link{
+           color: black;
+             }
+        }
+        /* for table style */
+        table{
+            width:100%;
+             
+             margin-top: 15px;
+             }
+        .div{
+             text-align: center;
+            }
+          /* for all images */
+         .imageset{
+           margin-top: 20px;
+            border: inset 5px;
+           border-color: aquamarine; 
+           margin-left: 170px;
+           }   
+           h4{
+            text-transform: capitalize;
+            font-family:serif;
+            color:red;
+            font-size: large;
+            
+           }
+       
+        
+           
